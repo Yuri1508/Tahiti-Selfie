@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link href="./css/bootstrap.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet" />
+
+  <title>Tahiti Selfie</title>
+
+  <!--<style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /*@media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>-->
+
+</head>
+
+<body>
+
+  <!--INTRO-->
+  <div class="intro">
+    <!--<div class="buttonI">
+      <a href="#sociaux">
+        <button">Rejoins-nous</button>
+      </a>
+    </div>-->
+  </div>
+
+  <!--CADRE PHOTO-->
+  <div class="cadre">
+    <div class="row" style="width: 100%;">
+      <div class="col-md-6">
+        <img style="height: 100px; z-index: 2; position: absolute;" src="./float/Image1.png">
+        <div align="center" class="row">
+          <div class="col-md-12">
+            <img src="./logo/Apple.png" alt="">
+          </div>
+        </div>
+
+        <img style="height: 100px; z-index: 2; position: absolute;" src="./float/Image2.png">
+        <br><br><br>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="p1">
+              <p class="textMoving1">Le Spot le plus</p>
+              <p class="textMoving2">Instagramable</p>
+              <p class="textMoving3">De toute la Polynésie</p>
+              <p class="textMoving4">100% dédié à tes</p>
+              <p class="textMoving5">Selfies !</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class=diapo_auto_rwd>
+          <input name="diapo" id=slide1 type="radio" class=slide_diapo>
+          <input name="diapo" id=slide2 type="radio" class=slide_diapo>
+          <input name="diapo" id=slide3 type="radio" class=slide_diapo>
+          <input name="diapo" id=slide4 type="radio" class=slide_diapo>
+          <input name="diapo" id=slide5 type="radio" class=slide_diapo>
+          <input name="diapo" id=lance-diapo type="radio" checked>
+          <input name="diapo" id=pause1 type="radio" class=pause_diapo>
+          <input name="diapo" id=pause2 type="radio" class=pause_diapo>
+          <input name="diapo" id=pause3 type="radio" class=pause_diapo>
+          <input name="diapo" id=pause4 type="radio" class=pause_diapo>
+          <input name="diapo" id=pause5 type="radio" class=pause_diapo>
+          <ul>
+            <li style="z-index: 3; position: relative;" class="image0"><img src="./images/Cadre.png" alt></li>
+            <li class="image1 slide_diapo"><img src='./images/cadre pour slider-8b-2 (1).png' alt></li>
+            <li class="image2 slide_diapo"><img src='./images/cadre pour slider-8b-3 (1).png' alt></li>
+            <li class="image3 slide_diapo"><img src='./images/cadre pour slider-8b-4 (1).png' alt></li>
+            <li class="image4 slide_diapo"><img src='./images/cadre pour slider-8b-5 (1).png' alt></li>
+            <li class="image5 slide_diapo"><img src='./images/cadre pour slider-8b-6 (1).png' alt></li>
+          </ul>
+          <div class=lancement_arret>
+            <label class=lance_diapo for=lance-diapo></label>
+            <label class="pause_diapo image1" for=pause1></label>
+            <label class="pause_diapo image2" for=pause2></label>
+            <label class="pause_diapo image3" for=pause3></label>
+            <label class="pause_diapo image4" for=pause4></label>
+            <label class="pause_diapo image5" for=pause5></label>
+          </div>
+          <div class=precedent>
+            <label class=image1 for=slide1></label>
+            <label class=image2 for=slide2></label>
+            <label class=image3 for=slide3></label>
+            <label class=image4 for=slide4></label>
+            <label class=image5 for=slide5></label>
+          </div>
+          <div class=suivant>
+            <label class=image1 for=slide1></label>
+            <label class=image2 for=slide2></label>
+            <label class=image3 for=slide3></label>
+            <label class=image4 for=slide4></label>
+            <label class=image5 for=slide5></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--INSCRIPTION-->
+  <div class="inscription">
+    <div class="color2">
+
+      <div class="accroche">
+        <div class="row">
+          <div style="color: rgb(86, 176, 255);" align="center" class="col-md-12">
+            Pour découvrir en exclusivité la toute première exposition
+            interactive <a style="color: rgb(255, 96, 202);">Tahiti Selfie</a>, inscris-toi vite !
+          </div>
+        </div>
+      </div>
+
+      <div id="sociaux" class="sociaux">
+
+        <div class="row">
+          <div class="col-md-4 order-md-1 mb-4">
+
+            <!--BOUTTON SOCIAUX-->
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+              <span class="text1">Clique sur ton compte pour t'inscrire :</span>
+            </h4>
+
+            <ul class="list-group mb-3">
+
+              <div class="<!--d-flex--> justify-content-between lh-condensed">
+                <div>
+                  <a href="https://fr-fr.facebook.com/">
+                    <button class="button button1">Inscris toi avec <strong>Facebook</strong></button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="<!--d-flex--> justify-content-between lh-condensed">
+                <div>
+                  <a href="https://www.instagram.com/">
+                    <button class="button button2">Inscris toi avec <strong>Instagram</strong></button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="<!--d-flex--> justify-content-between lh-condensed">
+                <div>
+                  <a href="https://twitter.com/login?lang=fr/">
+                    <button class="button button3">Inscris toi avec <strong>Twitter</strong></button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="<!--d-flex--> justify-content-between lh-condensed">
+                <div>
+                  <a
+                    href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome">
+                    <button class="button button4">Inscris toi avec <strong>Snapchat</strong></button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="<!--d-flex--> justify-content-between lh-condensed">
+                <div>
+                  <a
+                    href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                    <button class="button button5">Inscris toi avec <strong>Google</strong></button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="justify-content-between lh-condensed">
+                <div>
+                  <a
+                    href="https://secure1.store.apple.com/fr/shop/signIn?c=aHR0cHM6Ly93d3cuYXBwbGUuY29tL2ZyL3wxYW9zNTA0YmM4OTZiZTkwYTBhNjc4MjVkODc3OTUzNDJhM2RkN2Y4NjNiYw&r=SCDHYHP7CY4H9XK2H&s=aHR0cHM6Ly93d3cuYXBwbGUuY29tL2ZyL3wxYW9zNTA0YmM4OTZiZTkwYTBhNjc4MjVkODc3OTUzNDJhM2RkN2Y4NjNiYw">
+                    <button class="button button6">Inscris toi avec <strong>Apple</strong></button>
+                  </a>
+                </div>
+              </div>
+
+            </ul>
+
+          </div>
+
+          <div class="col-md-8 order-md-2">
+
+            <h4 class="mb-3">Inscris-toi en remplissant le formulaire ci-dessous :</h4>
+            <form class="needs-validation" novalidate>
+
+              <div class="col-md-6 mb-3">
+                <label for="name">Prénom :</label>
+                <input type="text" class="form-control" id="Prénom" placeholder="*Obligatoire" value="" required />
+                <div class="invalid-feedback">
+                  Cette case est requise.
+                </div>
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <label for="name">Nom :</label>
+                <input type="text" class="form-control" id="nom" placeholder="" value="" required />
+                <div class="invalid-feedback">Cette case est requise.</div>
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <label for="email">Email :</label>
+                <input type="email" class="form-control" id="email" placeholder="*Obligatoire" />
+                <div class="invalid-feedback">
+                  Entrer un email valid.
+                </div>
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <label for="password">Mot de passe :</label>
+                <input type="password" class="form-control" id="password" placeholder="*Obligatoire" />
+                <div class="invalid-feedback">
+                  Entrer un mot de passe valide.
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Date de naissance
+                </button>
+              </div>
+
+              <br>
+              <input type="date" id="dropdownMenuButton" name="trip-start" value="2021-01-27" min="1980-01-01"
+                max="2003-01-01">
+
+              <br><br>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="same-address" />
+                <label class="custom-control-label" for="same-address">Je certifie avoir 18 ans</label>
+              </div>
+
+              <br>
+              <div class="inscris">
+                <button class="btn btn-lg btn-block" type="submit">
+                  <a style="color: aliceblue; text-decoration: none;" href="./formulaire -inscription.html">Je
+                    m'inscris</a>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="accroche">
+        <div class="row">
+          <div align="center" style="color: rgb(86, 176, 255);" class="col-md-12">
+            Visite en avant-première nos installations fun et immersives, uniques à Tahiti !
+            Inscris-toi ici pour pouvoir <a style="color: rgb(255, 96, 202);">accéder aux pages secrètes</a> de notre
+            site internet :
+            nous y publierons en exclusivité nos premières photos, avant même de les
+            dévoiler sur les réseaux sociaux
+            Et si tu as plus de 18 ans, tu pourras aussi tenter ta chance pour <a
+              style="color: rgb(255, 96, 202);">gagner une
+              invitation</a> à notre grande soirée d’inauguration VIP !
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--PARAGRAPH-->
+  <div class="paragraph">
+
+    <!--GAUCHE-->
+    <div class="m-5 pt-4 row">
+      <div class="col-md-6" id="boxG">
+        <h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi illo
+          ex dignissimos doloremque veniam? Deleniti neque soluta dolores
+          asperiores consequatur quia tempore maxime commodi quisquam, animi
+          odit fugiat, ut porro.
+        </h3>
+      </div>
+    </div>
+
+    <img style="height: 100px;" src=" ./float/Image5.png">
+
+    <!-- DROITE -->
+    <div class="m-5 pt-4 row" id="row1">
+      <div class="col-md-6" id="boxD">
+        <h3>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi illo
+          ex dignissimos doloremque veniam? Deleniti neque soluta dolores
+          asperiores consequatur quia tempore maxime commodi quisquam, animi
+          odit fugiat, ut porro.
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <!--FOOTER-->
+  <div class="down">
+    <div class="row m-4 d-flex justify-content-around">
+
+      <div class="col-md-3 d-flex mt-5 justify-content-around">
+        <a class="foot" style="text-decoration: none;" href="#">Mentions légales</a>
+      </div>
+      <div class="col-md-3 d-flex mt-5 justify-content-around">
+        <a class="foot" style="text-decoration: none;" href="#">Données personnelles</a>
+      </div>
+
+      <p align="center" style="color: aliceblue;" class="footerdown mb-1">
+        Tahiti Selfie et Tahiti Stickers sont des marques de Smart PromoMedia
+        <br />
+        <a class="footH" href="http://tahiti-stickers.com/telecharger/">&copy; Tahitiperformance Smart Promo Media
+          2021</a>,
+        tous
+        droits réservés.
+      </p>
+    </div>
+  </div>
+
+  <!--<div class="down">
+
+    <div align="center" class="foot">
+      <div class="row">
+        <div class="col-md-6">
+          <a style="color: aliceblue;" href="#">Mentions légales</a>
+        </div>
+
+        <div class="col-md-6">
+          <a style="color: aliceblue;" href="#">Données personnelles</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="row">
+        <div class="col-md-12">
+          <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p style="color: aliceblue;" class="mb-1">
+              Tahiti Selfie et Tahiti Stickers sont des marques de Smart PromoMedia
+              </br>&copy; Tahitiperformance Smart Promo Media 2021, tous droits réservés.
+            </p>
+
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="#">Privacy</a></li>
+              <li class="list-inline-item"><a href="#">Terms</a></li>
+              <li class="list-inline-item"><a href="#">Support</a></li>
+            </ul>
+
+          </footer>
+        </div>
+      </div>
+    </div>
+
+  </div>-->
+
+  <script src="./java/bootstrap.js" type="text/javascript"></script>
+  <script src="./java/script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
